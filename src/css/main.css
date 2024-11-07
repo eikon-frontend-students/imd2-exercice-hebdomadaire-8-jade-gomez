@@ -12,3 +12,58 @@ img,
 video {
   display: block;
 }
+body {
+  padding: 50px;
+  background-color: #fbfbfb;
+}
+.Cart {
+  display: flex;
+  width: 284px;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Lato";
+}
+.product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  flex: 1 0 0;
+}
+.product-info strong {
+  font-size: 15px;
+  line-height: 15px;
+}
+.product-info p {
+  font-size: 15px;
+  line-height: 15px;
+}
+.prix {
+  font-size: 12px;
+  line-height: 16px;
+}
+.Button {
+  display: flex;
+  width: 244px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #0a003c;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  transition: background-color 0.3s;
+}
+.Button:hover {
+  background-color: #4924ff;
+}
